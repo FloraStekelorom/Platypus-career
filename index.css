@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  #xsLogo,
+  #navbarMenu {
+    display: none !important;
+  }
+}
