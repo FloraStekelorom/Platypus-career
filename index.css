@@ -1,3 +1,140 @@
+/* General */
+
+.container {
+  max-width: 100% !important;
+}
+
+/* navbar */
+
+#navbarBackground {
+  background: rgba(98, 136, 200, 1);
+  background: linear-gradient(rgba(98, 136, 200, 1) 70%, rgba(98, 136, 200, 0));
+}
+
+.logo {
+  width: 75px;
+}
+
+.logo:hover {
+  filter: brightness(80%);
+}
+
+.nav-text:hover {
+  color: rgb(222, 222, 222);
+}
+
+.textDropMenu {
+  color: black;
+  font-size: 13px;
+}
+
+#navbarMenu {
+  min-width: 40px;
+}
+
+/* Home */
+
+#homeTitle {
+  margin-top: 100px;
+}
+
+#homeTitle h1 {
+  font-size: 30px;
+}
+
+#homeImage {
+  margin-top: 20px;
+  height: 450px;
+}
+
+#linkedinButton {
+  background-color: rgb(0, 119, 181);
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+/* About */
+
+#about {
+  background: rgba(98, 136, 200, 1);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#aboutTitle {
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.aboutText,
+.aboutText2 {
+  text-align: center;
+}
+
+.aboutText2 {
+  padding-bottom: 50px;
+}
+
+/* Media Queries */
+
+@media (max-width: 575px) {
+  #homeTitle h1 {
+    font-size: 17px;
+  }
+  #homeImage {
+    margin-top: 20px;
+    height: 200px;
+  }
+  #linkedinButton {
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  #aboutTitle {
+    padding-top: 30px;
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+  .aboutText,
+  .aboutText2 {
+    font-size: 12px;
+  }
+  .aboutText2 {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #homeTitle h1 {
+    font-size: 23px;
+  }
+  #homeImage {
+    margin-top: 20px;
+    height: 270px;
+  }
+  #linkedinButton {
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  #aboutTitle {
+    padding-top: 40px;
+    font-size: 23px;
+    padding-bottom: 20px;
+  }
+  .aboutText,
+  .aboutText2 {
+    font-size: 15px;
+  }
+  .aboutText2 {
+    padding-bottom: 40px;
+  }
+}
+
 @media (min-width: 768px) {
   #xsLogo,
   #navbarMenu {

@@ -21,35 +21,70 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top" id="navbarBackground">
     <!-- Navbar for Medium to XL screens -->
       <div class="d-none d-md-flex flex-grow-1 py-0" id="md-navbar">
-        <a class="navbar-brand" href="index.html">Platypus</a>
+        <a class="navbar-brand text-white pt-0" href="index.html"><img class="logo" src="./images/platypus-white.png" alt="logo"></a>
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="#home">Home</a>
-          <a class="nav-item nav-link" href="#aboutUs">About Us</a>
-          <a class="nav-item nav-link" href="#services">Services</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a class="nav-item nav-link text-white" href="#home"><div class="nav-text">Home</div></a>
+          <a class="nav-item nav-link text-white" href="#about"><div class="nav-text">About</div></a>
+          <a class="nav-item nav-link text-white" href="#services"><div class="nav-text">Services</div></a>
+          <a class="nav-item nav-link text-white" href="#contact"><div class="nav-text">Contact</div></a>
         </div>
       </div>
       <!-- Navbar for XL to Small screens -->
-      <a class="navbar-brand" href="index.html" id="xsLogo">Platypus</a>
+      <a class="navbar-brand text-white" href="index.html" id="xsLogo"><img class="logo" src="./images/platypus-white.png" alt="logo"></a>
       <div class="btn-group">
         <button class="navbar-toggler collapsed" role="button" data-toggle="collapse" href="#navbarMenu" aria-expanded="true">
-          <span><i class="fas fa-bars nav-text"></i></span>
+          <span class="text-white"><i class="fas fa-bars nav-text"></i></span>
         </button>
         <div class="collapse navbar-collapse dropdown-menu dropdown-menu-right" id="navbarMenu">
-          <a class="nav-item nav-link" href="#home">Home</a>
-          <a class="nav-item nav-link" href="#aboutUs">About Us</a>
-          <a class="nav-item nav-link" href="#services">Services</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a class="nav-item nav-link" href="#home"><div class="nav-text textDropMenu">Home</div></a>
+          <a class="nav-item nav-link" href="#about"><div class="nav-text textDropMenu">About</div></a>
+          <a class="nav-item nav-link" href="#services"><div class="nav-text textDropMenu">Services</div></a>
+          <a class="nav-item nav-link" href="#contact"><div class="nav-text textDropMenu">Contact</div></a>
         </div>
       </div>
-
-
-
-
     </nav>
+    <!-- Home -->
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col-xs-12 mx-auto" id="homeTitle">
+          <h1>Are you ready to change your career?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 mx-auto">
+          <img id="homeImage" src="./images/rsz_home-picture.jpg" alt="home picture">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 mx-auto">
+          <button type="button" class="btn" id="linkedinButton"><i class="text-white fab fa-linkedin-in"></i>&nbsp &nbsp <a href="#" class="text-white">Sign in with LinkedIn</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- About -->
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div>
+            <h1 class="text-white" id="aboutTitle">About Us</h1>
+            <p class="text-white aboutText">Platypus changes the way we learn and find a new job.</p>
+            <p class="text-white aboutText2">We believe that changing careers should not be as difficult, time consuming and expensive as it is today. Instead of going back to university to do a one to two year course that is beyong your means and that does not guarantee you the job you really want, we put you in touch with companies that are willing to hire you and give you a chance on the condition that you reskill before your first day at work.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div>
+            <h1></h1>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
 
   </body>
 </html>
