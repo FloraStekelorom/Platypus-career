@@ -68,6 +68,7 @@
   font-size: 30px;
   text-align: center;
   padding-bottom: 30px;
+  text-decoration: underline;
 }
 
 .aboutText,
@@ -78,6 +79,76 @@
 .aboutText2 {
   padding-bottom: 50px;
 }
+
+.aboutBox {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Services */
+
+.serviceTitle {
+  color: rgba(98, 136, 200, 1);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+
+.serviceSubTitle {
+  color: rgba(98, 136, 200, 1);
+  font-size: 20px;
+  text-align: center;
+}
+
+.serviceText {
+  text-align: center;
+}
+
+.serviceBox {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.boxEmoticon {
+  text-align: center;
+  font-size: 60px;
+  color: rgba(98, 136, 200, 1);
+}
+
+/* Contact */
+#contact {
+  background-image: url('./images/contact-us.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.contactTitle {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: underline;
+}
+
+.contaxtBox {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footerRow {
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: right;
+}
+
+.footerText {
+  font-size: 12px;
+}
+
 
 /* Media Queries */
 
@@ -100,11 +171,28 @@
     padding-bottom: 15px;
   }
   .aboutText,
+  .contactText,
+  .serviceText,
   .aboutText2 {
     font-size: 12px;
   }
   .aboutText2 {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+  }
+  .contactTitle,
+  .serviceTitle {
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .serviceSubTitle {
+    font-size: 14px;
+  }
+  .serviceBox {
+    padding-bottom: 0;
+  }
+  .boxEmoticon {
+    font-size: 30px;
   }
 }
 
@@ -127,11 +215,28 @@
     padding-bottom: 20px;
   }
   .aboutText,
+  .contactText,
+  .serviceText,
   .aboutText2 {
     font-size: 15px;
   }
   .aboutText2 {
     padding-bottom: 40px;
+  }
+  .contactTitle,
+  .serviceTitle {
+    font-size: 23px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .serviceSubTitle {
+    font-size: 17px;
+  }
+  .serviceBox {
+    padding-bottom: 10px;
+  }
+  .boxEmoticon {
+    font-size: 45px;
   }
 }
 
